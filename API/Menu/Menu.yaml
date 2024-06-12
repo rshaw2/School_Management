@@ -1,0 +1,200 @@
+- name: Academic
+  icon: fas fa-graduation-cap
+  items:
+    - name: Students
+      description: Manage student and related entities.
+      route: Students
+      icon: fas fa-user-tie
+    - name: Teacher
+      description: Manage teacher and related entities.
+      route: teacher
+      icon: fas fa-user-plus
+    - name: Academic year
+      description: Manage academic years and terms.
+      route: academicYear
+      icon: fas fa-calendar-check
+    - name: Semester
+      description: Manage semesters and time frames.
+      route: semester
+      icon: fas fa-clock
+    - name: Class
+      description: Manage classes and infrastructure.
+      route: class
+      icon: fas fa-chalkboard-user
+    - name: Section
+      description: Manage sections and divisions.
+      route: section
+      icon: fas fa-table-columns
+    - name: Course
+      description: Manage courses and related entities.
+      route: course
+      icon: fas fa-book
+    - name: Enrollment
+      description: Manage student enrollments.
+      route: enrollment
+      icon: fas fa-user-plus
+    - name: Attendance
+      description: Manage class attendance records.
+      route: attendance
+      icon: fas fa-square-check
+    - name: Grade
+      description: Monitor and manage student grades.
+      route: grade
+      icon: fas fa-percent
+    - name: Transcript
+      description: Store and manage student transcripts.
+      route: transcript
+      icon: fas fa-scroll
+    - name: Assignment
+      description: Manage and assign tasks to students.
+      route: assignment
+      icon: fas fa-list-check
+    - name: Exam
+      description: Administer and schedule exams.
+      route: exam
+      icon: fas fa-file-lines
+    - name: Extra curricular activity
+      description: Manage student activities outside of academics.
+      route: extraCurricularActivity
+      icon: fas fa-futbol
+    - name: Schedule
+      description: Manage and allocate resources for class schedules.
+      route: schedule
+      icon: fas fa-calendar-days
+- name: Finance
+  icon: fas fa-dollar-sign
+  items:
+    - name: Fee
+      description: Manage fees and due dates.
+      route: fee
+      icon: fas fa-credit-card
+    - name: Payment
+      description: Record and track payments.
+      route: payment
+      icon: fas fa-money-check-dollar
+    - name: Discount
+      description: Manage and allocate discounts.
+      route: discount
+      icon: fas fa-percent
+    - name: Billing
+      description: Create and distribute invoices.
+      route: billing
+      icon: fas fa-file-invoice-dollar
+    - name: Report card
+      description: Generate report cards for students.
+      route: reportCard
+      icon: fas fa-file-export
+- name: Administration
+  icon: fas fa-gears
+  items:
+    - name: Faculty
+      description: Manage and oversee faculty members.
+      route: faculty
+      icon: fas fa-chalkboard-user
+    - name: Staff
+      description: Manage and support non-faculty employees.
+      route: staff
+      icon: fas fa-users-gear
+    - name: Notice board
+      description: Serve as a central hub for important announcements.
+      route: noticeBoard
+      icon: fas fa-bullhorn
+    - name: School events
+      description: Manage and schedule school-wide events.
+      route: schoolEvents
+      icon: fas fa-calendar
+    - name: Library
+      description: Organize and manage library resources.
+      route: library
+      icon: fas fa-book
+    - name: Department
+      description: Manage organizational structures within the school.
+      route: department
+      icon: fas fa-sitemap
+    - name: Employee
+      description: Manage employee and positions.
+      route: employee
+      icon: fas fa-user-tie
+    - name: Job title
+      description: Manage employee job titles and positions.
+      route: jobTitle
+      icon: fas fa-id-card
+    - name: Employment status
+      description: Monitor employee hire and termination status.
+      route: employmentStatus
+      icon: fas fa-user-clock
+    - name: Shift
+      description: Manage employee shift schedules.
+      route: shift
+      icon: fas fa-clock
+    - name: Time off request
+      description: Review and approve employee leave requests.
+      route: timeOffRequest
+      icon: fas fa-calendar-plus
+    - name: Leave
+      description: Manage employee leave balances and allocations.
+      route: leave
+      icon: fas fa-calendar-minus
+    - name: Performance review
+      description: Conduct and record employee evaluations.
+      route: performanceReview
+      icon: fas fa-star
+    - name: Payroll
+      description: Process employee salaries and payments.
+      route: payroll
+      icon: fas fa-money-bill-wave
+    - name: Salary
+      description: Manage employee salary information.
+      route: salary
+      icon: fas fa-dollar-sign
+    - name: Benefits
+      description: Manage employee benefit packages.
+      route: benefits
+      icon: fas fa-gift
+    - name: Skill
+      description: Track employee skills and certifications.
+      route: skill
+      icon: fas fa-user-tie
+    - name: Training
+      description: Organize and schedule staff development programs.
+      route: training
+      icon: fas fa-graduation-cap
+    - name: Document
+      description: Store and manage important documentation.
+      route: document
+      icon: fas fa-file
+- name: Communication
+  icon: fas fa-comments
+  items:
+    - name: Email
+      description: Manage and send email communications.
+      route: email
+      icon: fas fa-envelope
+    - name: Chat
+      description: Organize and connect through text-based conversations.
+      route: chat
+      icon: fas fa-comments
+    - name: Calendar
+      description: Manage events and appointments.
+      route: calendar
+      icon: fas fa-calendar
+    - name: Meeting
+      description: Schedule and attend virtual or in-person meetings.
+      route: meeting
+      icon: fas fa-handshake
+    - name: Event
+      description: Plan and manage various events.
+      route: event
+      icon: fas fa-calendar-day
+    - name: Contact
+      description: Store and manage important contact information.
+      route: contact
+      icon: fas fa-address-book
+    - name: Project
+      description: Organize and track team-based projects.
+      route: project
+      icon: fas fa-list-check
+    - name: Workspace
+      description: Centralize resources and communication for team projects.
+      route: workspace
+      icon: fas fa-desktop

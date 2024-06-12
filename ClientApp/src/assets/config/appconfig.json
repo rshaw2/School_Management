@@ -1,0 +1,24 @@
+{
+    "environment": {
+        "name": "Local",
+        "production": false
+    },
+    "appInsights": {
+        "instrumentationKey": ""
+    },
+    "logging": {
+        "console": true,
+        "appInsights": false
+    },
+    "api": {
+        "url": "https://june122024api.azurewebsites.net"
+    },
+    "app": {
+        "title": "School Management"
+    },
+    "buildInfo": {
+        "number": "1.0.0.0",
+        "createdOn": "Wednesday, June 12, 2024 11:07:11 AM"
+    },
+    "environments": []
+}

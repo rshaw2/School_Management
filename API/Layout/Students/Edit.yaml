@@ -1,0 +1,25 @@
+- name: Academic year details
+  type: section
+  column: 4
+  showTitle: true
+  fields:
+    - dataType: string
+      label: Name
+      column: 2
+      fieldName: Name
+    - dataType: datetime
+      label: Admission date
+      column: 2
+      fieldName: AdmissionDate
+    - dataType: datetime
+      label: Date of birth
+      column: 1
+      fieldName: DateOfBirth
+    - dataType: datetime
+      label: Created on
+      column: 1
+      fieldName: CreatedOn
+    - dataType: guid
+      label: Created by
+      column: 2
+      fieldName: CreatedBy

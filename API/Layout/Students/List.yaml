@@ -1,0 +1,26 @@
+grid:
+  cardTitle:
+    fields:
+      - dataType: string
+        label: Name
+        column: 4
+        fieldName: Name
+  cardDetail:
+    fields:
+      - dataType: datetime
+        label: Date of birth
+        column: 4
+        fieldName: DateOfBirth
+      - dataType: guid
+        label: Created by
+        column: 4
+        fieldName: CreatedBy
+      - dataType: datetime
+        label: Created on
+        column: 4
+        fieldName: CreatedOn
+      - dataType: datetime
+        label: Admission date
+        column: 4
+        fieldName: AdmissionDate
+filter: {}
